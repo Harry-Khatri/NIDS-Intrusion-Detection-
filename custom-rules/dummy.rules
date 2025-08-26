@@ -1,0 +1,1 @@
+alert icmp any any -> any any (msg:"🔥 Dummy Rule Triggered"; sid:9999999; rev:1;)

@@ -1,0 +1,9 @@
+[
+    {
+        "signature": "[TEST] ICMP Ping Detected",
+        "src_ip": "fe80:0000:0000:0000:aae2:07ff:fe00:25d9",
+        "dest_ip": "ff02:0000:0000:0000:0000:0000:0000:0001",
+        "technique_id": "T1016",
+        "tactic": "Discovery"
+    }
+]

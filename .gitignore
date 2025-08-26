@@ -1,0 +1,6 @@
+# Ignore large binaries
+*.deb
+osquery/opt/osquery/bin/osqueryd
+osquery/usr/lib/debug/
+extract_osq/
+

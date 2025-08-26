@@ -1,0 +1,31 @@
+playbook:
+  id: PB-1016
+  name: "System Network Configuration Discovery"
+  technique: "T1016"
+  trigger:
+    - Suricata alert for unusual `ifconfig` or `ip addr` execution
+    - Filebeat logs containing suspicious `netstat` output
+  severity: Medium
+  steps:
+    - step: Detection
+      actions:
+        - Review Suricata/Elastic alerts linked to T1016
+        - Verify if the command was executed by a legitimate admin
+    - step: Investigation
+      actions:
+        - Collect user info (who ran the command?)
+        - Check timestamp and related processes
+        - Cross-check with normal baseline activity
+    - step: Containment
+      actions:
+        - If malicious → isolate host from network
+        - Block suspicious external IPs found in logs
+    - step: Eradication & Recovery
+      actions:
+        - Kill malicious processes
+        - Run AV scan
+        - Restore system if compromised
+    - step: Lessons Learned
+      actions:
+        - Update Suricata rules for better detection
+        - Add Elastic alerting rule for future detection

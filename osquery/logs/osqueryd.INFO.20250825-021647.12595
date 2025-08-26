@@ -1,0 +1,8 @@
+Log file created at: 2025/08/25 02:16:47
+Running on machine: kali
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0825 02:16:47.137778 12595 eventfactory.cpp:156] Event publisher not enabled: BPFEventPublisher: Publisher disabled via configuration
+I0825 02:16:47.137892 12595 eventfactory.cpp:156] Event publisher not enabled: auditeventpublisher: Publisher disabled via configuration
+I0825 02:16:47.137907 12595 eventfactory.cpp:156] Event publisher not enabled: inotify: Publisher disabled via configuration
+I0825 02:16:47.137920 12595 eventfactory.cpp:156] Event publisher not enabled: syslog: Publisher disabled via configuration

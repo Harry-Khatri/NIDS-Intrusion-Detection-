@@ -1,0 +1,4 @@
+*.deb filter=lfs diff=lfs merge=lfs -text
+*.debug filter=lfs diff=lfs merge=lfs -text
+osquery/usr/lib/debug/* filter=lfs diff=lfs merge=lfs -text
+extract_osq/opt/osquery/bin/osqueryd filter=lfs diff=lfs merge=lfs -text

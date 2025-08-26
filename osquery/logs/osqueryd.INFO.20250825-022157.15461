@@ -1,0 +1,12 @@
+Log file created at: 2025/08/25 02:21:57
+Running on machine: kali
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0825 02:21:57.948125 15461 eventfactory.cpp:156] Event publisher not enabled: BPFEventPublisher: Publisher disabled via configuration
+I0825 02:21:57.948232 15461 eventfactory.cpp:156] Event publisher not enabled: auditeventpublisher: Publisher disabled via configuration
+I0825 02:21:57.948242 15461 eventfactory.cpp:156] Event publisher not enabled: inotify: Publisher disabled via configuration
+I0825 02:21:57.948251 15461 eventfactory.cpp:156] Event publisher not enabled: syslog: Publisher disabled via configuration
+I0825 02:22:01.760304 15607 query.cpp:119] Storing initial results for new scheduled query: startup_items
+I0825 02:22:07.045099 15607 query.cpp:119] Storing initial results for new scheduled query: listening_ports
+I0825 02:22:07.060077 15607 query.cpp:119] Storing initial results for new scheduled query: system_info
+I0825 02:22:17.060125 15607 query.cpp:119] Storing initial results for new scheduled query: processes

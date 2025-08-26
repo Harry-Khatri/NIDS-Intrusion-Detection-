@@ -1,0 +1,26 @@
+{
+  "[TEST] ICMP Ping Detected": {
+    "technique_id": "T1016",
+    "tactic": "Discovery"
+  },
+  "[abuse.ch] any ip traffic with malicious ip": {
+    "technique_id": "T1071",
+    "tactic": "Command and Control"
+  },
+  "[test] tcp traffic to 185.234.219.223": {
+    "technique_id": "T1071",
+    "tactic": "Command and Control"
+  },
+  "[test] http to 185.234.219.223": {
+    "technique_id": "T1071",
+    "tactic": "Command and Control"
+  },
+  "[abuse.ch] fake malicious test ip": {
+    "technique_id": "T1071",
+    "tactic": "Command and Control"
+  },
+  "[test] icmp to 185.234.219.223": {
+    "technique_id": "T1046",
+    "tactic": "Discovery"
+  }
+}
