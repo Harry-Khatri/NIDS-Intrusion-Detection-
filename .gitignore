@@ -4,4 +4,6 @@ osquery/opt/osquery/bin/osqueryd
 osquery/usr/lib/debug/
 extract_osq/
 
-osquery/osqueryd
+!osquery/osqueryd
+
+
